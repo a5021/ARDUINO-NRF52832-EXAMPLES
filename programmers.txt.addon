@@ -1,0 +1,6 @@
+#**********************************************
+# Jlink with JFlash
+#**********************************************
+jflash.name=J-Flash for nRF52
+jflash.program.tool=jflash
+jflash.bootloader.tool=sandeepmistry:jflash
