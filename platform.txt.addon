@@ -1,0 +1,10 @@
+#
+# jflash upload
+#
+
+tools.jflash.path=C:\Program Files\SEGGER\JLink_V633i
+tools.jflash.cmd=JFlash.exe
+
+tools.jflash.program.params.verbose=
+tools.jflash.program.params.quiet=-hide -exit
+tools.jflash.program.pattern="{path}/{cmd}" -openprjC:/TEMP/nrf52.jflash -open"{build.path}/{build.project_name}.hex" -auto -startapp
